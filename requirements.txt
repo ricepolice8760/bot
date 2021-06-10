@@ -1,2 +1,2 @@
-discord == 0.16.12
-random == 0.16.12
+discord == 2021.1.2
+random == 2021.1.2
