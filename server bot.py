@@ -1,5 +1,5 @@
 import discord, random
-
+import os
 client = discord.Client()
 
 @client.event
@@ -648,5 +648,5 @@ async def on_message(message, discord=None):
         await message.channel.send("```② 헌법개정안은 국회가 의결한 후 30일 이내에 국민투표에 붙여 국회의원선거권자 과반수의 투표와 투표자 과반수의 찬성을 얻어야 한다.```")
         await message.channel.send("```③ 헌법개정안이 제2항의 찬성을 얻은 때에는 헌법개정은 확정되며, 대통령은 즉시 이를 공포하여야 한다.```")
 
-
-client.run("ODUyMTkzNzI2NTIzNTA2NzA4.YMDRQQ.1CbsP_d2uNJJaYNmlTiuDTROE2Y")
+access_Token = os.environ["BOT_TOKEN"]
+client.run(access_Token)
