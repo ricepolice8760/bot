@@ -1,2 +1,2 @@
-discord.py==3.9.5
-random.py==3.9.5
+discord.py==2021.1.2
+random.py==2021.1.2
